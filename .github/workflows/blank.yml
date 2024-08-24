@@ -32,7 +32,7 @@ jobs:
       
         echo "sukses"
   pelit:
-    needs: pemanasan
+    needs: alah
     runs-on: ubuntu-latest
     strategy:
       max-parallel: 250
